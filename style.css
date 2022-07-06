@@ -6,6 +6,17 @@ body {
     text-align: center;
 }
 
+h1 {
+    color: white;
+    font-weight: 900;
+    font: size 35px;
+}
+
+h4 {
+    color: rgb(252, 0, 168);
+    font-weight: 700;
+}
+
 .link-button {
     text-decoration: none;
 
@@ -14,4 +25,11 @@ body {
     background-image: linear-gradient(orange, blue);
     color: white;
     font-weight: 700;
+}
+
+.background-image {
+    background-image: url(images/back-image.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+
 }
