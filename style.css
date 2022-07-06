@@ -35,7 +35,7 @@ h4 {
 }
 
 .button {
-    border: 2px solid red;
+    border: 0px solid red;
     height: 100px;
     width: 100px;
 
@@ -48,4 +48,40 @@ h4 {
 
 #mark {
     background-color: blue;
+    border: 2px solid red;
+}
+
+.shadow {
+    box-shadow: 20px 20px 60px gray;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.back-image-1 {
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: antiquewhite;
+}
+
+.back-image-2 {
+    background-image: url(icons/medicine.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: aqua;
+}
+
+.back-image-3 {
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: bisque;
+}
+
+.flexible-container {
+    display: flex;
+    bottom: margin 100px;
 }
